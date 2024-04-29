@@ -1,0 +1,38 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "base:Business" "base:Seat_type" "base:Origin" "base:Body_review" "base:Family_Leisure" "base:Premium_Economy" "base:Recomended" "base:Passenger" "base:Date_Published" "base:Aircraft" "base:Indiferent" "base:Flight_Date" "base:Passenger_verified" "base:Type_of_Traveller" "base:Ryanair" "base:Passenger_Information" "base:Couple_Leisure" "base:Solo_Leisure" "base:Flight_Information" "base:Airline_Satisfaction" "base:Economy_Class" "base:Good" "base:Title_review" "base:Business_Class" "base:Excelent" "base:Destination" "base:Passenger_Location" "base:Airline" "base:Qatar_Airways" "base:First_Class" "base:Review" "base:Poor" ; /*classes style*/
+	"base:Good" -> "base:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"base:Recomended" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Aircraft" -> "base:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"base:Passenger_verified" -> "base:Passenger_Information" [ label = "rdfs:subClassOf" ];
+	"base:Passenger_Information" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Origin" -> "base:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"base:Business" -> "base:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Body_review" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Indiferent" -> "base:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"base:Airline_Satisfaction" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Ryanair" -> "base:Airline" [ label = "rdfs:subClassOf" ];
+	"base:Type_of_Traveller" -> "base:Passenger" [ label = "rdfs:subClassOf" ];
+	"base:First_Class" -> "base:Seat_type" [ label = "rdfs:subClassOf" ];
+	"base:Family_Leisure" -> "base:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Destination" -> "base:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"base:Seat_type" -> "base:Passenger" [ label = "rdfs:subClassOf" ];
+	"base:Passenger_Location" -> "base:Passenger_Information" [ label = "rdfs:subClassOf" ];
+	"base:Excelent" -> "base:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"base:Business_Class" -> "base:Seat_type" [ label = "rdfs:subClassOf" ];
+	"base:Economy_Class" -> "base:Seat_type" [ label = "rdfs:subClassOf" ];
+	"base:Solo_Leisure" -> "base:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Flight_Date" -> "base:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"base:Passenger" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Couple_Leisure" -> "base:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"base:Flight_Information" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Airline" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Poor" -> "base:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"base:Premium_Economy" -> "base:Seat_type" [ label = "rdfs:subClassOf" ];
+	"base:Date_Published" -> "base:Review" [ label = "rdfs:subClassOf" ];
+	"base:Qatar_Airways" -> "base:Airline" [ label = "rdfs:subClassOf" ];
+	"base:Review" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"base:Title_review" -> "base:Review" [ label = "rdfs:subClassOf" ];
+
+}

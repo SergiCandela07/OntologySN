@@ -1,0 +1,38 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Business" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Seat_type" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Origin" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Body_review" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Family_Leisure" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Premium_Economy" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Recomended" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Date_Published" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Aircraft" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Indiferent" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Date" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_verified" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Type_of_Traveller" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Ryanair" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_Information" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Couple_Leisure" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Solo_Leisure" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Information" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline_Satisfaction" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Economy_Class" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Good" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Title_review" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Business_Class" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Excelent" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Destination" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_Location" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Qatar_Airways" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:First_Class" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Poor" ; /*classes style*/
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Good" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Recomended" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Aircraft" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_verified" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_Information" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_Information" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Origin" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Business" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Body_review" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Indiferent" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline_Satisfaction" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Ryanair" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Type_of_Traveller" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:First_Class" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Seat_type" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Family_Leisure" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Destination" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Seat_type" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_Location" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger_Information" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Excelent" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Business_Class" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Seat_type" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Economy_Class" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Seat_type" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Solo_Leisure" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Date" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Information" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Passenger" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Couple_Leisure" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Type_of_Traveller" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Flight_Information" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Poor" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline_Satisfaction" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Premium_Economy" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Seat_type" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Date_Published" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Qatar_Airways" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Airline" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" -> "owl:Thing" [ label = "rdfs:subClassOf" ];
+	"Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Title_review" -> "Ontologia_de_les_enquestes_de_satisfacció_dels_vols:Review" [ label = "rdfs:subClassOf" ];
+
+}
