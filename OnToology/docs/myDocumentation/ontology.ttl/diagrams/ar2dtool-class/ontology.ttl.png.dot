@@ -2,10 +2,10 @@ digraph ar2dtool_diagram {
 rankdir=LR;
 size="1501"
 node [shape = rectangle, color="orange"]; "base:Seat_type" "base:Origin" "base:Body_review" "base:Passenger" "base:Date_Published" "base:Aircraft" "base:Flight_Date" "base:Type_of_Traveller" "base:Ryanair" "base:Airline_Satisfaction" "base:Title_review" "base:Destination" "base:Passenger_Location" "base:Airline" "base:Review" ; /*classes style*/
-	"NULL" -> "base:Aircraft" [ label = "owl:onClass" ];
-	"NULL" -> "base:hasTakenAn" [ label = "owl:onProperty" ];
 	"NULL" -> "base:Title_review" [ label = "owl:onClass" ];
 	"NULL" -> "base:hasTitle" [ label = "owl:onProperty" ];
+	"NULL" -> "base:Aircraft" [ label = "owl:onClass" ];
+	"NULL" -> "base:hasTakenAn" [ label = "owl:onProperty" ];
 	"base:has_Airline" -> "owl:topDataProperty" [ label = "rdfs:subPropertyOf" ];
 	"base:Aircraft_4" -> "base:Qatar_airways" [ label = "base:isFlewBy" ];
 	"base:Aircraft" -> "base:Passenger" [ label = "owl:disjointWith" ];
