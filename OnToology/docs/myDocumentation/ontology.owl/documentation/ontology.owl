@@ -1,0 +1,1032 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#"
+     xml:base="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Ontologia_de_les_enquestes_de_satisfacció_dels_vols="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols">
+        <owl:versionIRI rdf:resource="urn:absolute:1.0"/>
+        <rdfs:comment xml:lang="en">This is our Ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">Ontology</rdfs:label>
+        <owl:priorVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</owl:priorVersion>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasPassenger -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasPassenger">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <rdfs:comment xml:lang="en">It means if it has passengers something occurs.</rdfs:comment>
+        <rdfs:label xml:lang="en">It_has_passenger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <rdfs:comment xml:lang="en">It means that if the passenger has taken the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has_taken</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review"/>
+        <rdfs:comment xml:lang="en">It means if the review has a title.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has_title</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <rdfs:comment xml:lang="en">It means if the review was written by the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Has_written</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"/>
+        <rdfs:comment xml:lang="en">We have the Airline of the Aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">Is_flew_by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingOf -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingOf">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin"/>
+        <rdfs:comment xml:lang="en">We have the origin of the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Is_flying_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingTo -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingTo">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination"/>
+        <rdfs:comment xml:lang="en">Contains the destination of the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Is_flying_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty">
+        <rdfs:comment xml:lang="en">All the objects properties.</rdfs:comment>
+        <rdfs:label xml:lang="en">Object Property</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Contains the date of the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Date_Flown</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Contains where is from the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_Country</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:comment xml:lang="en">Conatins the number of the qualification of the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Rating_property</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Contains the type of seat.</rdfs:comment>
+        <rdfs:label xml:lang="en">Seat_type_property</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This contains the name of the Aircraft.</rdfs:comment>
+        <rdfs:label>has_Aircraft</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>This contains the two options of Airlines.</rdfs:comment>
+        <rdfs:label>Has_Airline</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Contains the name of the flight destination.</rdfs:comment>
+        <rdfs:isDefinedBy>https://dbpedia.org/ontology/locationCountry</rdfs:isDefinedBy>
+        <rdfs:label>Has_Destination</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Contains the place where the flight departs.</rdfs:comment>
+        <rdfs:label>has_Origin</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>Conatins the date where the review was published.</rdfs:comment>
+        <rdfs:label>Has_date_published</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller -->
+
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment>It is the type of traveler, that is, if you are going on a family or business trip, etc.</rdfs:comment>
+        <rdfs:label>Has_type_of_treveller</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topDataProperty -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#topDataProperty">
+        <rdfs:comment xml:lang="en">All the data properties.</rdfs:comment>
+        <rdfs:label xml:lang="en">Data property</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <rdfs:comment>This contains the name of the Aircraft.</rdfs:comment>
+        <rdfs:label>Aircraft</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment>this contains the value of the Airline.</rdfs:comment>
+        <rdfs:label>Airline</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <rdfs:comment xml:lang="en">Contains how is the satisfaction in the passengers.</rdfs:comment>
+        <rdfs:label xml:lang="en">Airline_Satisfaction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <rdfs:comment xml:lang="en">Contains the body of the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Body_Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"/>
+        <rdfs:comment xml:lang="en">Contains the type of traveler, in this case of business</rdfs:comment>
+        <rdfs:label xml:lang="en">Business</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business_Class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"/>
+        <rdfs:comment xml:lang="en">It means that you are assigned business class on the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Business_Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Couple_Leisure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Couple_Leisure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"/>
+        <rdfs:comment xml:lang="en">Contains the type of traveler, in this case of couple leisure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Couple_leisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <rdfs:comment>Conatins the date where the review was published.</rdfs:comment>
+        <rdfs:label>Date_Published</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"/>
+        <rdfs:comment>Contains the name of the flight destination.</rdfs:comment>
+        <rdfs:label>Destination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Economy_Class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Economy_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"/>
+        <rdfs:comment xml:lang="en">It means that you are assigned economy class on the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Economy_Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Excelent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Excelent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"/>
+        <rdfs:comment xml:lang="en">Contains that the satisfaction in the passengers is Excelent.</rdfs:comment>
+        <rdfs:label xml:lang="en">Excelent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Family_Leisure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Family_Leisure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"/>
+        <rdfs:comment xml:lang="en">Contains the type of traveler, in this case of family leisure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Family_Leisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#First_Class -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#First_Class">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"/>
+        <rdfs:comment xml:lang="en">It means that you are assigned first class on the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">First_Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"/>
+        <rdfs:comment xml:lang="en">Contains the date of the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Flight_Date</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Contains the information about the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Flight_Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Good -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Good">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"/>
+        <rdfs:comment xml:lang="en">Contains that the satisfaction in the passengers is Good.</rdfs:comment>
+        <rdfs:label xml:lang="en">Good</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Indiferent -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Indiferent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"/>
+        <rdfs:comment xml:lang="en">Contains that the satisfaction in the passengers is Indiferent.</rdfs:comment>
+        <rdfs:label xml:lang="en">Indiferent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"/>
+        <rdfs:comment>Contains the place where the flight departs.</rdfs:comment>
+        <rdfs:isDefinedBy>https://dbpedia.org/ontology/locationCountry</rdfs:isDefinedBy>
+        <rdfs:label>Origin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Passenger means the information we have about the person who has flown with the airline.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/ontology/Person</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Passenger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_Information</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information"/>
+        <rdfs:comment xml:lang="en">Contains the country of the passenger.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/ontology/locationCountry</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Passenger_Location</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_verified -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_verified">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information"/>
+        <rdfs:comment xml:lang="en">Contains if the passenger is verified or not.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_Verified</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Poor -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Poor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"/>
+        <rdfs:comment xml:lang="en">Contains that the satisfaction in the passengers is Poor.</rdfs:comment>
+        <rdfs:label xml:lang="en">Poor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Premium_Economy -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Premium_Economy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"/>
+        <rdfs:comment xml:lang="en">It means that you are assigned premium economy class on the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Premium_Economy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"/>
+        <rdfs:comment xml:lang="en">This is the Airline Qatar Airways.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/ontology/Company</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Qatar_Airways</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Recomended -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Recomended">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <rdfs:comment xml:lang="en">Contains if the passengers recomend the airline.</rdfs:comment>
+        <rdfs:label xml:lang="en">Recomended</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <rdfs:comment xml:lang="en">Seat type It means what type of seat you are assigned on the flight.</rdfs:comment>
+        <rdfs:label xml:lang="en">Seat_Type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Solo_Leisure -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Solo_Leisure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"/>
+        <rdfs:comment xml:lang="en">Contains the type of traveler, in this case of solo leisure</rdfs:comment>
+        <rdfs:label xml:lang="en">Solo_Leisure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <rdfs:comment xml:lang="en">Contains the title of the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Title_Review</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller -->
+
+
+    <owl:Class rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <rdfs:comment>It is the type of traveler, that is, if you are going on a family or business trip, etc.</rdfs:comment>
+        <rdfs:label>Type_of_traveller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#Thing -->
+
+
+    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing">
+        <rdfs:comment xml:lang="en">The classes of the ontology.</rdfs:comment>
+        <rdfs:label xml:lang="en">Class</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <isFlewBy rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"/>
+        <has_Aircraft>Boeing 737 900</has_Aircraft>
+        <rdfs:comment xml:lang="en">Contains the name of the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">Boeing_737_900</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <isFlewBy rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"/>
+        <has_Aircraft>Boeing 738</has_Aircraft>
+        <rdfs:comment xml:lang="en">Contains the name of the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">Boeing_738</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <isFlewBy rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"/>
+        <has_Aircraft>Boeing 737</has_Aircraft>
+        <rdfs:comment xml:lang="en">Contains the name of the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">Boeing_737</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <isFlewBy rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways"/>
+        <has_Aircraft>A380</has_Aircraft>
+        <rdfs:comment xml:lang="en">Contains the name of the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">A380</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <isFlewBy rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways"/>
+        <has_Aircraft>A380-800</has_Aircraft>
+        <rdfs:comment xml:lang="en">Contains the name of the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">A380-800</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"/>
+        <isFlewBy rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways"/>
+        <has_Aircraft>Boeing 787-9 / A330-300</has_Aircraft>
+        <rdfs:comment xml:lang="en">Contains the name of the aircraft.</rdfs:comment>
+        <rdfs:label xml:lang="en">Boeing_787-9/A330-300</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <hasTakenAn rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1"/>
+        <hasWritten rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1"/>
+        <Passenger_Country>United Kingdom</Passenger_Country>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <hasTakenAn rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2"/>
+        <hasWritten rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2"/>
+        <Passenger_Country>United Kingdom</Passenger_Country>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <hasTakenAn rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3"/>
+        <hasWritten rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3"/>
+        <Passenger_Country>United Kingdom</Passenger_Country>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <hasTakenAn rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4"/>
+        <hasWritten rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4"/>
+        <Passenger_Country>Australia</Passenger_Country>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <hasTakenAn rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5"/>
+        <hasWritten rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5"/>
+        <Passenger_Country>Qatar</Passenger_Country>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"/>
+        <hasTakenAn rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6"/>
+        <hasWritten rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6"/>
+        <Passenger_Country>Germany</Passenger_Country>
+        <rdfs:comment xml:lang="en">Contains the personal information about the passenger.</rdfs:comment>
+        <rdfs:label xml:lang="en">Passenger_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways"/>
+        <has_Airline>Qatar Airways</has_Airline>
+        <rdfs:comment xml:lang="en">Contains the information about Qatar Airways.</rdfs:comment>
+        <rdfs:label xml:lang="en">Qatar_Airways</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <Date_Flown>01/02/2024</Date_Flown>
+        <Passenger_Country>United Kingdom</Passenger_Country>
+        <Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</Rating>
+        <Seat_Type>Economy Class</Seat_Type>
+        <has_Destination>Luton</has_Destination>
+        <has_Origin>Faro</has_Origin>
+        <has_date_published>02/02/2024</has_date_published>
+        <has_type_of_traveller>Family Leisure</has_type_of_traveller>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <Date_Flown>01/10/2023</Date_Flown>
+        <Passenger_Country>United Kingdom</Passenger_Country>
+        <Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</Rating>
+        <Seat_Type>Economy Class</Seat_Type>
+        <has_Destination>Paris Beauvais</has_Destination>
+        <has_Origin>Edinburgh</has_Origin>
+        <has_date_published>20/01/2024</has_date_published>
+        <has_type_of_traveller>Couple Leisure</has_type_of_traveller>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review_2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <Date_Flown>2024-02-02</Date_Flown>
+        <Passenger_Country>United Kingdom</Passenger_Country>
+        <Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">6</Rating>
+        <Seat_Type>Economy Class</Seat_Type>
+        <has_Destination>Liverpool</has_Destination>
+        <has_Origin>Faro</has_Origin>
+        <has_date_published>07/01/2023</has_date_published>
+        <has_type_of_traveller>Solo Leisure</has_type_of_traveller>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review_3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <Date_Flown>November 2023</Date_Flown>
+        <Passenger_Country>Australia</Passenger_Country>
+        <Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</Rating>
+        <Seat_Type>Economy Class</Seat_Type>
+        <has_Destination>Perth</has_Destination>
+        <has_Origin>Doha</has_Origin>
+        <has_date_published>23/02/2024</has_date_published>
+        <has_type_of_traveller>Business</has_type_of_traveller>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review_4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <Date_Flown>07/06/2023</Date_Flown>
+        <Passenger_Country>Qatar</Passenger_Country>
+        <Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</Rating>
+        <Seat_Type>First Class</Seat_Type>
+        <has_Destination>London Heathrow</has_Destination>
+        <has_Origin>Doha</has_Origin>
+        <has_date_published>2024/02/25</has_date_published>
+        <has_type_of_traveller>Couple Leisure</has_type_of_traveller>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review_5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"/>
+        <Date_Flown>16/02/2024</Date_Flown>
+        <Passenger_Country>Germany</Passenger_Country>
+        <Rating rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">7</Rating>
+        <Seat_Type>Economy Class</Seat_Type>
+        <has_Destination>Kilimanjaro via Doha</has_Destination>
+        <has_Origin>Dusseldorf</has_Origin>
+        <has_date_published>16/05/2022</has_date_published>
+        <has_type_of_traveller>Couple Leisure</has_type_of_traveller>
+        <rdfs:comment xml:lang="en">Contains the information about the review.</rdfs:comment>
+        <rdfs:label xml:lang="en">Review_6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"/>
+        <has_Airline>Ryanair</has_Airline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair">
+        <rdfs:comment xml:lang="en">This is the Airline Ryanair.</rdfs:comment>
+        <rdfs:isDefinedBy xml:lang="en">https://dbpedia.org/ontology/Company</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Ryanair</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
