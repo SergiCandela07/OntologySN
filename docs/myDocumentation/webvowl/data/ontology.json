@@ -1,0 +1,1499 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols", "http://www.w3.org/2002/07/owl", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema" ],
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "version" : "1.0",
+    "labels" : {
+      "en" : "Ontology"
+    },
+    "comments" : {
+      "en" : "This is our Ontology."
+    },
+    "other" : {
+      "priorVersion" : [ {
+        "identifier" : "priorVersion",
+        "language" : "undefined",
+        "value" : "0.5",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "3",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "14",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "7",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "48",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "67",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Seat_type",
+      "en" : "Seat_Type"
+    },
+    "subClasses" : [ "5", "6", "7", "8" ],
+    "comment" : {
+      "en" : "Seat type It means what type of seat you are assigned on the flight."
+    },
+    "id" : "3",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Aircraft",
+      "undefined" : "Aircraft"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the name of the aircraft."
+      },
+      "labels" : {
+        "IRI-based" : "Aircraft_3",
+        "en" : "Boeing_737"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the name of the aircraft."
+      },
+      "labels" : {
+        "IRI-based" : "Aircraft_4",
+        "en" : "A380"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the name of the aircraft."
+      },
+      "labels" : {
+        "IRI-based" : "Aircraft_1",
+        "en" : "Boeing_737_900"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the name of the aircraft."
+      },
+      "labels" : {
+        "IRI-based" : "Aircraft_2",
+        "en" : "Boeing_738"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the name of the aircraft."
+      },
+      "labels" : {
+        "IRI-based" : "Aircraft_5",
+        "en" : "A380-800"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the name of the aircraft."
+      },
+      "labels" : {
+        "IRI-based" : "Aircraft_6",
+        "en" : "Boeing_787-9/A330-300"
+      }
+    } ],
+    "comment" : {
+      "undefined" : "This contains the name of the Aircraft."
+    },
+    "id" : "38",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business_Class",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Business_Class",
+      "en" : "Business_Class"
+    },
+    "comment" : {
+      "en" : "It means that you are assigned business class on the flight."
+    },
+    "id" : "8",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/ontology/Company",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Qatar_Airways",
+      "en" : "Qatar_Airways"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about Qatar Airways."
+      },
+      "labels" : {
+        "IRI-based" : "Qatar_airways",
+        "en" : "Qatar_Airways"
+      }
+    } ],
+    "comment" : {
+      "en" : "This is the Airline Qatar Airways."
+    },
+    "id" : "26",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/ontology/Person",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Passenger",
+      "en" : "Passenger"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_4",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the personal information about the passenger."
+      },
+      "labels" : {
+        "IRI-based" : "Passenger_4",
+        "en" : "Passenger_4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_3",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the personal information about the passenger."
+      },
+      "labels" : {
+        "IRI-based" : "Passenger_3",
+        "en" : "Passenger_3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_2",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the personal information about the passenger."
+      },
+      "labels" : {
+        "IRI-based" : "Passenger_2",
+        "en" : "Passenger_2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_1",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the personal information about the passenger."
+      },
+      "labels" : {
+        "IRI-based" : "Passenger_1",
+        "en" : "Passenger_1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_6",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the personal information about the passenger."
+      },
+      "labels" : {
+        "IRI-based" : "Passenger_6",
+        "en" : "Passenger_6"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_5",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the personal information about the passenger."
+      },
+      "labels" : {
+        "IRI-based" : "Passenger_5",
+        "en" : "Passenger_5"
+      }
+    } ],
+    "subClasses" : [ "3", "12" ],
+    "comment" : {
+      "en" : "Passenger means the information we have about the person who has flown with the airline."
+    },
+    "id" : "4"
+  }, {
+    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
+    "id" : "46",
+    "label" : {
+      "IRI-based" : "Literal",
+      "undefined" : "Literal"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "14",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Title_review",
+      "en" : "Title_Review"
+    },
+    "comment" : {
+      "en" : "Contains the title of the review."
+    },
+    "id" : "49",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Good",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Good",
+      "en" : "Good"
+    },
+    "comment" : {
+      "en" : "Contains that the satisfaction in the passengers is Good."
+    },
+    "id" : "57",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Couple_Leisure",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Couple_Leisure",
+      "en" : "Couple_leisure"
+    },
+    "comment" : {
+      "en" : "Contains the type of traveler, in this case of couple leisure."
+    },
+    "id" : "60",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 1,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/ontology/Company",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Ryanair",
+      "en" : "Ryanair"
+    },
+    "comment" : {
+      "en" : "This is the Airline Ryanair."
+    },
+    "id" : "34",
+    "superClasses" : [ "27" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Airline_Satisfaction",
+      "en" : "Airline_Satisfaction"
+    },
+    "subClasses" : [ "61", "57", "62", "63" ],
+    "comment" : {
+      "en" : "Contains how is the satisfaction in the passengers."
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_verified",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Passenger_verified",
+      "en" : "Passenger_Verified"
+    },
+    "comment" : {
+      "en" : "Contains if the passenger is verified or not."
+    },
+    "id" : "23",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Date_Published",
+      "undefined" : "Date_Published"
+    },
+    "comment" : {
+      "undefined" : "Conatins the date where the review was published."
+    },
+    "id" : "55",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "en",
+        "value" : "https://dbpedia.org/ontology/locationCountry",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Passenger_Location",
+      "en" : "Passenger_Location"
+    },
+    "comment" : {
+      "en" : "Contains the country of the passenger."
+    },
+    "id" : "30",
+    "superClasses" : [ "24" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/ontology/locationCountry",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Origin",
+      "undefined" : "Origin"
+    },
+    "comment" : {
+      "undefined" : "Contains the place where the flight departs."
+    },
+    "id" : "51",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Recomended",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recomended",
+      "en" : "Recomended"
+    },
+    "comment" : {
+      "en" : "Contains if the passengers recomend the airline."
+    },
+    "id" : "81",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_Information",
+      "en" : "Flight_Information"
+    },
+    "subClasses" : [ "51", "48", "44", "38" ],
+    "comment" : {
+      "en" : "Contains the information about the flight."
+    },
+    "id" : "39"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 1,
+    "label" : {
+      "IRI-based" : "Airline",
+      "undefined" : "Airline"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about Qatar Airways."
+      },
+      "labels" : {
+        "IRI-based" : "Qatar_airways",
+        "en" : "Qatar_Airways"
+      }
+    } ],
+    "subClasses" : [ "34", "26" ],
+    "comment" : {
+      "undefined" : "this contains the value of the Airline."
+    },
+    "id" : "27"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Passenger_Information",
+      "en" : "Passenger_Information"
+    },
+    "subClasses" : [ "23", "30" ],
+    "comment" : {
+      "en" : "Contains the personal information about the passenger."
+    },
+    "id" : "24"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Economy_Class",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Economy_Class",
+      "en" : "Economy_Class"
+    },
+    "comment" : {
+      "en" : "It means that you are assigned economy class on the flight."
+    },
+    "id" : "6",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Flight_Date",
+      "en" : "Flight_Date"
+    },
+    "comment" : {
+      "en" : "Contains the date of the flight."
+    },
+    "id" : "44",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Indiferent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Indiferent",
+      "en" : "Indiferent"
+    },
+    "comment" : {
+      "en" : "Contains that the satisfaction in the passengers is Indiferent."
+    },
+    "id" : "61",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Premium_Economy",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Premium_Economy",
+      "en" : "Premium_Economy"
+    },
+    "comment" : {
+      "en" : "It means that you are assigned premium economy class on the flight."
+    },
+    "id" : "7",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Family_Leisure",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Family_Leisure",
+      "en" : "Family_Leisure"
+    },
+    "comment" : {
+      "en" : "Contains the type of traveler, in this case of family leisure."
+    },
+    "id" : "78",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Body_review",
+      "en" : "Body_Review"
+    },
+    "comment" : {
+      "en" : "Contains the body of the review."
+    },
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Review",
+      "en" : "Review"
+    },
+    "individuals" : [ {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about the review."
+      },
+      "labels" : {
+        "IRI-based" : "Review_2",
+        "en" : "Review_2"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about the review."
+      },
+      "labels" : {
+        "IRI-based" : "Review_1",
+        "en" : "Review_1"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about the review."
+      },
+      "labels" : {
+        "IRI-based" : "Review_4",
+        "en" : "Review_4"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about the review."
+      },
+      "labels" : {
+        "IRI-based" : "Review_3",
+        "en" : "Review_3"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about the review."
+      },
+      "labels" : {
+        "IRI-based" : "Review_6",
+        "en" : "Review_6"
+      }
+    }, {
+      "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5",
+      "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+      "comment" : {
+        "en" : "Contains the information about the review."
+      },
+      "labels" : {
+        "IRI-based" : "Review_5",
+        "en" : "Review_5"
+      }
+    } ],
+    "subClasses" : [ "10", "1", "81", "55", "49" ],
+    "comment" : {
+      "en" : "Contains the information about the review."
+    },
+    "id" : "2"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Destination",
+      "undefined" : "Destination"
+    },
+    "comment" : {
+      "undefined" : "Contains the name of the flight destination."
+    },
+    "id" : "48",
+    "superClasses" : [ "39" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "87",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "nonNegativeInteger"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "67",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type_of_Traveller",
+      "undefined" : "Type_of_traveller"
+    },
+    "subClasses" : [ "60", "75", "73", "78" ],
+    "comment" : {
+      "undefined" : "It is the type of traveler, that is, if you are going on a family or business trip, etc."
+    },
+    "id" : "12",
+    "superClasses" : [ "4" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "69",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "85",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#First_Class",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "First_Class",
+      "en" : "First_Class"
+    },
+    "comment" : {
+      "en" : "It means that you are assigned first class on the flight."
+    },
+    "id" : "5",
+    "superClasses" : [ "3" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "59",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Solo_Leisure",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Solo_Leisure",
+      "en" : "Solo_Leisure"
+    },
+    "comment" : {
+      "en" : "Contains the type of traveler, in this case of solo leisure"
+    },
+    "id" : "75",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Business",
+      "en" : "Business"
+    },
+    "comment" : {
+      "en" : "Contains the type of traveler, in this case of business"
+    },
+    "id" : "73",
+    "superClasses" : [ "12" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Excelent",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Excelent",
+      "en" : "Excelent"
+    },
+    "comment" : {
+      "en" : "Contains that the satisfaction in the passengers is Excelent."
+    },
+    "id" : "62",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Poor",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Poor",
+      "en" : "Poor"
+    },
+    "comment" : {
+      "en" : "Contains that the satisfaction in the passengers is Poor."
+    },
+    "id" : "63",
+    "superClasses" : [ "1" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "11",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "25",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "32",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "33",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "40",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "47",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "52",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "53",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "54",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "58",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "64",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "65",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "68",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "80",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "82",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "84",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "21",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "19",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "91",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "92",
+    "type" : "owl:datatypeProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
+  }, {
+    "range" : "4",
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "11"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "14",
+    "label" : {
+      "IRI-based" : "topObjectProperty",
+      "en" : "Object Property"
+    },
+    "domain" : "14",
+    "subproperty" : [ "15", "16", "17", "18", "19", "20", "21" ],
+    "comment" : {
+      "en" : "All the objects properties."
+    },
+    "attributes" : [ "external", "object" ],
+    "id" : "13"
+  }, {
+    "range" : "24",
+    "domain" : "23",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "22"
+  }, {
+    "range" : "27",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "25"
+  }, {
+    "range" : "4",
+    "domain" : "3",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "28"
+  }, {
+    "range" : "24",
+    "domain" : "30",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "29"
+  }, {
+    "range" : "3",
+    "domain" : "7",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "31"
+  }, {
+    "range" : "3",
+    "domain" : "6",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "32"
+  }, {
+    "range" : "27",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "33"
+  }, {
+    "range" : "3",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "37",
+    "label" : {
+      "IRI-based" : "has_type_of_traveller",
+      "undefined" : "Has_type_of_treveller"
+    },
+    "domain" : "12",
+    "comment" : {
+      "undefined" : "It is the type of traveler, that is, if you are going on a family or business trip, etc."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "36"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "has_Airline",
+      "undefined" : "Has_Airline"
+    },
+    "domain" : "27",
+    "comment" : {
+      "undefined" : "This contains the two options of Airlines."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "40"
+  }, {
+    "range" : "39",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "42"
+  }, {
+    "range" : "39",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "43"
+  }, {
+    "range" : "3",
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "45"
+  }, {
+    "range" : "39",
+    "domain" : "48",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "39",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "50"
+  }, {
+    "domain" : "34",
+    "range" : "34",
+    "id" : "52",
+    "label" : {
+      "IRI-based" : "12",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "27",
+    "range" : "34",
+    "id" : "53",
+    "label" : {
+      "IRI-based" : "11",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "has_date_published",
+      "undefined" : "Has_date_published"
+    },
+    "domain" : "55",
+    "comment" : {
+      "undefined" : "Conatins the date where the review was published."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "54"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "59",
+    "label" : {
+      "IRI-based" : "Date_Flown",
+      "en" : "Date_Flown"
+    },
+    "domain" : "44",
+    "comment" : {
+      "en" : "Contains the date of the flight."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "58"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingTo",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "isFlyingTo",
+      "en" : "Is_flying_to"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "38",
+    "comment" : {
+      "en" : "Contains the destination of the flight."
+    },
+    "attributes" : [ "irreflexive", "functional", "object" ],
+    "id" : "15"
+  }, {
+    "range" : "1",
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "64"
+  }, {
+    "range" : "1",
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "65"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "67",
+    "label" : {
+      "IRI-based" : "Seat_Type",
+      "en" : "Seat_type_property"
+    },
+    "domain" : "3",
+    "comment" : {
+      "en" : "Contains the type of seat."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "66"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "69",
+    "annotations" : {
+      "isDefinedBy" : [ {
+        "identifier" : "isDefinedBy",
+        "language" : "undefined",
+        "value" : "https://dbpedia.org/ontology/locationCountry",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "has_Destination",
+      "undefined" : "Has_Destination"
+    },
+    "domain" : "48",
+    "comment" : {
+      "undefined" : "Contains the name of the flight destination."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "68"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasWritten",
+      "en" : "Has_written"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "It means if the review was written by the passenger."
+    },
+    "attributes" : [ "irreflexive", "functional", "object" ],
+    "id" : "17"
+  }, {
+    "range" : "1",
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "70"
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#topDataProperty",
+    "baseIri" : "http://www.w3.org/2002/07/owl",
+    "range" : "46",
+    "label" : {
+      "IRI-based" : "topDataProperty",
+      "en" : "Data property"
+    },
+    "domain" : "14",
+    "comment" : {
+      "en" : "All the data properties."
+    },
+    "attributes" : [ "datatype", "external" ],
+    "id" : "71"
+  }, {
+    "range" : "12",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "72"
+  }, {
+    "range" : "12",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "1",
+    "domain" : "61",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "12",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "range" : "2",
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "79"
+  }, {
+    "range" : "2",
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "80"
+  }, {
+    "range" : "12",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "82"
+  }, {
+    "range" : "2",
+    "domain" : "49",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "49",
+    "label" : {
+      "IRI-based" : "hasTitle",
+      "en" : "Has_title"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "10",
+    "comment" : {
+      "en" : "It means if the review has a title."
+    },
+    "attributes" : [ "functional", "object" ],
+    "id" : "18"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "85",
+    "label" : {
+      "IRI-based" : "has_Origin",
+      "undefined" : "has_Origin"
+    },
+    "domain" : "51",
+    "comment" : {
+      "undefined" : "Contains the place where the flight departs."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "84"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasPassenger",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasPassenger",
+      "en" : "It_has_passenger"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "38",
+    "comment" : {
+      "en" : "It means if it has passengers something occurs."
+    },
+    "attributes" : [ "irreflexive", "functional", "object" ],
+    "id" : "16"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "87",
+    "label" : {
+      "IRI-based" : "Passenger_Country",
+      "en" : "Passenger_Country"
+    },
+    "domain" : "30",
+    "comment" : {
+      "en" : "Contains where is from the passenger."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "86"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "isFlewBy",
+      "en" : "Is_flew_by"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "38",
+    "comment" : {
+      "en" : "We have the Airline of the Aircraft."
+    },
+    "attributes" : [ "irreflexive", "functional", "object" ],
+    "id" : "20"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingOf",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "51",
+    "label" : {
+      "IRI-based" : "isFlyingOf",
+      "en" : "Is_flying_of"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "38",
+    "comment" : {
+      "en" : "We have the origin of the flight."
+    },
+    "attributes" : [ "irreflexive", "functional", "object" ],
+    "id" : "21"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "38",
+    "label" : {
+      "IRI-based" : "hasTakenAn",
+      "en" : "Has_taken"
+    },
+    "superproperty" : [ "13" ],
+    "domain" : "4",
+    "comment" : {
+      "en" : "It means that if the passenger has taken the aircraft."
+    },
+    "attributes" : [ "irreflexive", "functional", "object" ],
+    "id" : "19"
+  }, {
+    "range" : "4",
+    "domain" : "38",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "90"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "has_Aircraft",
+      "undefined" : "has_Aircraft"
+    },
+    "domain" : "38",
+    "comment" : {
+      "undefined" : "This contains the name of the Aircraft."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "91"
+  }, {
+    "iri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating",
+    "baseIri" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "Rating",
+      "en" : "Rating_property"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Conatins the number of the qualification of the review."
+    },
+    "attributes" : [ "datatype", "functional" ],
+    "id" : "92"
+  } ]
+}

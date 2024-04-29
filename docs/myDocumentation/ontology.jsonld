@@ -1,0 +1,1393 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle"
+  } ],
+  "http://www.w3.org/2002/07/owl#qualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is our Ontology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ontology"
+  } ],
+  "http://www.w3.org/2002/07/owl#priorVersion" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "0.5"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "urn:absolute:1.0"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This contains the name of the Aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"
+  } ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft" : [ {
+    "@value" : "Boeing 737 900"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the name of the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Boeing_737_900"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft" : [ {
+    "@value" : "Boeing 738"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the name of the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Boeing_738"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft" : [ {
+    "@value" : "Boeing 737"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the name of the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Boeing_737"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft" : [ {
+    "@value" : "A380"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the name of the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A380"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft" : [ {
+    "@value" : "A380-800"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the name of the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "A380-800"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft" : [ {
+    "@value" : "Boeing 787-9 / A330-300"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the name of the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Boeing_787-9/A330-300"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "this contains the value of the Airline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains how is the satisfaction in the passengers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Airline_Satisfaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the body of the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Body_Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the type of traveler, in this case of business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Business"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business_Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means that you are assigned business class on the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Business_Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Couple_Leisure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the type of traveler, in this case of couple leisure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Couple_leisure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the date of the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Date_Flown"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Conatins the date where the review was published."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Date_Published"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains the name of the flight destination."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Economy_Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means that you are assigned economy class on the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Economy_Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Excelent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains that the satisfaction in the passengers is Excelent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Excelent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Family_Leisure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the type of traveler, in this case of family leisure."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Family_Leisure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#First_Class",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means that you are assigned first class on the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "First_Class"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the date of the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Flight_Date"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Flight_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Good",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains that the satisfaction in the passengers is Good."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Good"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Indiferent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains that the satisfaction in the passengers is Indiferent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indiferent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains the place where the flight departs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://dbpedia.org/ontology/locationCountry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Passenger means the information we have about the person who has flown with the airline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "Qatar"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains where is from the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_Country"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the personal information about the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_Information"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the country of the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/locationCountry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_Location"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_verified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains if the passenger is verified or not."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Passenger_Verified"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Poor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains that the satisfaction in the passengers is Poor."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Poor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Premium_Economy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means that you are assigned premium economy class on the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Premium_Economy"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the Airline Qatar Airways."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Qatar_Airways"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline" : [ {
+    "@value" : "Qatar Airways"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about Qatar Airways."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Qatar_Airways"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Conatins the number of the qualification of the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rating_property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Recomended",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains if the passengers recomend the airline."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Recomended"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown" : [ {
+    "@value" : "01/02/2024"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type" : [ {
+    "@value" : "Economy Class"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination" : [ {
+    "@value" : "Luton"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin" : [ {
+    "@value" : "Faro"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published" : [ {
+    "@value" : "02/02/2024"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller" : [ {
+    "@value" : "Family Leisure"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review_1"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown" : [ {
+    "@value" : "01/10/2023"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type" : [ {
+    "@value" : "Economy Class"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination" : [ {
+    "@value" : "Paris Beauvais"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin" : [ {
+    "@value" : "Edinburgh"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published" : [ {
+    "@value" : "20/01/2024"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller" : [ {
+    "@value" : "Couple Leisure"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review_2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown" : [ {
+    "@value" : "2024-02-02"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "United Kingdom"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "6"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type" : [ {
+    "@value" : "Economy Class"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination" : [ {
+    "@value" : "Liverpool"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin" : [ {
+    "@value" : "Faro"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published" : [ {
+    "@value" : "07/01/2023"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller" : [ {
+    "@value" : "Solo Leisure"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review_3"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown" : [ {
+    "@value" : "November 2023"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "Australia"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type" : [ {
+    "@value" : "Economy Class"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination" : [ {
+    "@value" : "Perth"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin" : [ {
+    "@value" : "Doha"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published" : [ {
+    "@value" : "23/02/2024"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller" : [ {
+    "@value" : "Business"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review_4"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown" : [ {
+    "@value" : "07/06/2023"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "Qatar"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "10"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type" : [ {
+    "@value" : "First Class"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination" : [ {
+    "@value" : "London Heathrow"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin" : [ {
+    "@value" : "Doha"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published" : [ {
+    "@value" : "2024/02/25"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller" : [ {
+    "@value" : "Couple Leisure"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review_5"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown" : [ {
+    "@value" : "16/02/2024"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country" : [ {
+    "@value" : "Germany"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "7"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type" : [ {
+    "@value" : "Economy Class"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination" : [ {
+    "@value" : "Kilimanjaro via Doha"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin" : [ {
+    "@value" : "Dusseldorf"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published" : [ {
+    "@value" : "16/05/2022"
+  } ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller" : [ {
+    "@value" : "Couple Leisure"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the information about the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Review_6"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class", "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline" : [ {
+    "@value" : "Ryanair"
+  } ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"
+  }, {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "This is the Airline Ryanair."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@language" : "en",
+    "@value" : "https://dbpedia.org/ontology/Company"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ryanair"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the type of seat."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Seat_type_property"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Seat type It means what type of seat you are assigned on the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Seat_Type"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Solo_Leisure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the type of traveler, in this case of solo leisure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Solo_Leisure"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the title of the review."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Title_Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is the type of traveler, that is, if you are going on a family or business trip, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Type_of_traveller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasPassenger",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means if it has passengers something occurs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "It_has_passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means that if the passenger has taken the aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has_taken"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means if the review has a title."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has_title"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "It means if the review was written by the passenger."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Has_written"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This contains the name of the Aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "This contains the two options of Airlines."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has_Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains the name of the flight destination."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#isDefinedBy" : [ {
+    "@value" : "https://dbpedia.org/ontology/locationCountry"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has_Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Contains the place where the flight departs."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "has_Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Conatins the date where the review was published."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has_date_published"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "It is the type of traveler, that is, if you are going on a family or business trip, etc."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Has_type_of_treveller"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topDataProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "We have the Airline of the Aircraft."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is_flew_by"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingOf",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "We have the origin of the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is_flying_of"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingTo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#IrreflexiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Contains the destination of the flight."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Is_flying_to"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#Thing",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "The classes of the ontology."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Class"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topDataProperty",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "All the data properties."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Data property"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "All the objects properties."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Object Property"
+  } ]
+} ]

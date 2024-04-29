@@ -1,0 +1,690 @@
+@prefix : <http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#> .
+
+<http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols> rdf:type owl:Ontology ;
+                                                                                                            owl:versionIRI <urn:absolute:1.0> ;
+                                                                                                            rdfs:comment "This is our Ontology."@en ;
+                                                                                                            rdfs:label "Ontology"@en ;
+                                                                                                            owl:priorVersion 0.5 ;
+                                                                                                            owl:versionInfo 1.0 .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasPassenger
+:hasPassenger rdf:type owl:ObjectProperty ;
+              rdfs:subPropertyOf owl:topObjectProperty ;
+              rdf:type owl:FunctionalProperty ,
+                       owl:IrreflexiveProperty ;
+              rdfs:domain :Aircraft ;
+              rdfs:range :Passenger ;
+              rdfs:comment "It means if it has passengers something occurs."@en ;
+              rdfs:label "It_has_passenger"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTakenAn
+:hasTakenAn rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:FunctionalProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Passenger ;
+            rdfs:range :Aircraft ;
+            rdfs:comment "It means that if the passenger has taken the aircraft."@en ;
+            rdfs:label "Has_taken"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasTitle
+:hasTitle rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdf:type owl:FunctionalProperty ;
+          rdfs:domain :Body_review ;
+          rdfs:range :Title_review ;
+          rdfs:comment "It means if the review has a title."@en ;
+          rdfs:label "Has_title"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#hasWritten
+:hasWritten rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:FunctionalProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Passenger ;
+            rdfs:range :Review ;
+            rdfs:comment "It means if the review was written by the passenger."@en ;
+            rdfs:label "Has_written"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlewBy
+:isFlewBy rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          rdf:type owl:FunctionalProperty ,
+                   owl:IrreflexiveProperty ;
+          rdfs:domain :Aircraft ;
+          rdfs:range :Airline ;
+          rdfs:comment "We have the Airline of the Aircraft."@en ;
+          rdfs:label "Is_flew_by"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingOf
+:isFlyingOf rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:FunctionalProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Aircraft ;
+            rdfs:range :Origin ;
+            rdfs:comment "We have the origin of the flight."@en ;
+            rdfs:label "Is_flying_of"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#isFlyingTo
+:isFlyingTo rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:FunctionalProperty ,
+                     owl:IrreflexiveProperty ;
+            rdfs:domain :Aircraft ;
+            rdfs:range :Destination ;
+            rdfs:comment "Contains the destination of the flight."@en ;
+            rdfs:label "Is_flying_to"@en .
+
+
+###  http://www.w3.org/2002/07/owl#topObjectProperty
+owl:topObjectProperty rdfs:comment "All the objects properties."@en ;
+                      rdfs:label "Object Property"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Flown
+:Date_Flown rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Flight_Date ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Contains the date of the flight."@en ;
+            rdfs:label "Date_Flown"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Country
+:Passenger_Country rdf:type owl:DatatypeProperty ;
+                   rdfs:subPropertyOf owl:topDataProperty ;
+                   rdf:type owl:FunctionalProperty ;
+                   rdfs:domain :Passenger_Location ;
+                   rdfs:range xsd:string ;
+                   rdfs:comment "Contains where is from the passenger."@en ;
+                   rdfs:label "Passenger_Country"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Rating
+:Rating rdf:type owl:DatatypeProperty ;
+        rdfs:subPropertyOf owl:topDataProperty ;
+        rdf:type owl:FunctionalProperty ;
+        rdfs:domain :Airline_Satisfaction ;
+        rdfs:range xsd:nonNegativeInteger ;
+        rdfs:comment "Conatins the number of the qualification of the review."@en ;
+        rdfs:label "Rating_property"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_Type
+:Seat_Type rdf:type owl:DatatypeProperty ;
+           rdfs:subPropertyOf owl:topDataProperty ;
+           rdf:type owl:FunctionalProperty ;
+           rdfs:domain :Seat_type ;
+           rdfs:range xsd:string ;
+           rdfs:comment "Contains the type of seat."@en ;
+           rdfs:label "Seat_type_property"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Aircraft
+:has_Aircraft rdf:type owl:DatatypeProperty ;
+              rdfs:subPropertyOf owl:topDataProperty ;
+              rdf:type owl:FunctionalProperty ;
+              rdfs:domain :Aircraft ;
+              rdfs:range xsd:string ;
+              rdfs:comment "This contains the name of the Aircraft." ;
+              rdfs:label "has_Aircraft" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Airline
+:has_Airline rdf:type owl:DatatypeProperty ;
+             rdfs:subPropertyOf owl:topDataProperty ;
+             rdf:type owl:FunctionalProperty ;
+             rdfs:domain :Airline ;
+             rdfs:range xsd:string ;
+             rdfs:comment "This contains the two options of Airlines." ;
+             rdfs:label "Has_Airline" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Destination
+:has_Destination rdf:type owl:DatatypeProperty ;
+                 rdfs:subPropertyOf owl:topDataProperty ;
+                 rdf:type owl:FunctionalProperty ;
+                 rdfs:domain :Destination ;
+                 rdfs:range xsd:string ;
+                 rdfs:comment "Contains the name of the flight destination." ;
+                 rdfs:isDefinedBy "https://dbpedia.org/ontology/locationCountry" ;
+                 rdfs:label "Has_Destination" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_Origin
+:has_Origin rdf:type owl:DatatypeProperty ;
+            rdfs:subPropertyOf owl:topDataProperty ;
+            rdf:type owl:FunctionalProperty ;
+            rdfs:domain :Origin ;
+            rdfs:range xsd:string ;
+            rdfs:comment "Contains the place where the flight departs." ;
+            rdfs:label "has_Origin" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_date_published
+:has_date_published rdf:type owl:DatatypeProperty ;
+                    rdfs:subPropertyOf owl:topDataProperty ;
+                    rdf:type owl:FunctionalProperty ;
+                    rdfs:domain :Date_Published ;
+                    rdfs:range xsd:string ;
+                    rdfs:comment "Conatins the date where the review was published." ;
+                    rdfs:label "Has_date_published" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#has_type_of_traveller
+:has_type_of_traveller rdf:type owl:DatatypeProperty ;
+                       rdfs:subPropertyOf owl:topDataProperty ;
+                       rdf:type owl:FunctionalProperty ;
+                       rdfs:domain :Type_of_Traveller ;
+                       rdfs:range xsd:string ;
+                       rdfs:comment "It is the type of traveler, that is, if you are going on a family or business trip, etc." ;
+                       rdfs:label "Has_type_of_treveller" .
+
+
+###  http://www.w3.org/2002/07/owl#topDataProperty
+owl:topDataProperty rdfs:comment "All the data properties."@en ;
+                    rdfs:label "Data property"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft
+:Aircraft rdf:type owl:Class ;
+          rdfs:subClassOf :Flight_Information ;
+          owl:disjointWith :Passenger ;
+          rdfs:comment "This contains the name of the Aircraft." ;
+          rdfs:label "Aircraft" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline
+:Airline rdf:type owl:Class ;
+         rdfs:subClassOf owl:Thing ;
+         rdfs:comment "this contains the value of the Airline." ;
+         rdfs:label "Airline" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Airline_Satisfaction
+:Airline_Satisfaction rdf:type owl:Class ;
+                      rdfs:subClassOf :Review ;
+                      rdfs:comment "Contains how is the satisfaction in the passengers."@en ;
+                      rdfs:label "Airline_Satisfaction"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Body_review
+:Body_review rdf:type owl:Class ;
+             owl:equivalentClass [ rdf:type owl:Restriction ;
+                                   owl:onProperty :hasTitle ;
+                                   owl:qualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                   owl:onClass :Title_review
+                                 ] ;
+             rdfs:subClassOf :Review ;
+             rdfs:comment "Contains the body of the review."@en ;
+             rdfs:label "Body_Review"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business
+:Business rdf:type owl:Class ;
+          rdfs:subClassOf :Type_of_Traveller ;
+          rdfs:comment "Contains the type of traveler, in this case of business"@en ;
+          rdfs:label "Business"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Business_Class
+:Business_Class rdf:type owl:Class ;
+                rdfs:subClassOf :Seat_type ;
+                rdfs:comment "It means that you are assigned business class on the flight."@en ;
+                rdfs:label "Business_Class"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Couple_Leisure
+:Couple_Leisure rdf:type owl:Class ;
+                rdfs:subClassOf :Type_of_Traveller ;
+                rdfs:comment "Contains the type of traveler, in this case of couple leisure."@en ;
+                rdfs:label "Couple_leisure"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Date_Published
+:Date_Published rdf:type owl:Class ;
+                rdfs:subClassOf :Review ;
+                rdfs:comment "Conatins the date where the review was published." ;
+                rdfs:label "Date_Published" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Destination
+:Destination rdf:type owl:Class ;
+             rdfs:subClassOf :Flight_Information ;
+             rdfs:comment "Contains the name of the flight destination." ;
+             rdfs:label "Destination" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Economy_Class
+:Economy_Class rdf:type owl:Class ;
+               rdfs:subClassOf :Seat_type ;
+               rdfs:comment "It means that you are assigned economy class on the flight."@en ;
+               rdfs:label "Economy_Class"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Excelent
+:Excelent rdf:type owl:Class ;
+          rdfs:subClassOf :Airline_Satisfaction ;
+          rdfs:comment "Contains that the satisfaction in the passengers is Excelent."@en ;
+          rdfs:label "Excelent"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Family_Leisure
+:Family_Leisure rdf:type owl:Class ;
+                rdfs:subClassOf :Type_of_Traveller ;
+                rdfs:comment "Contains the type of traveler, in this case of family leisure."@en ;
+                rdfs:label "Family_Leisure"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#First_Class
+:First_Class rdf:type owl:Class ;
+             rdfs:subClassOf :Seat_type ;
+             rdfs:comment "It means that you are assigned first class on the flight."@en ;
+             rdfs:label "First_Class"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Date
+:Flight_Date rdf:type owl:Class ;
+             rdfs:subClassOf :Flight_Information ;
+             rdfs:comment "Contains the date of the flight."@en ;
+             rdfs:label "Flight_Date"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Flight_Information
+:Flight_Information rdf:type owl:Class ;
+                    owl:equivalentClass [ rdf:type owl:Restriction ;
+                                          owl:onProperty :hasTakenAn ;
+                                          owl:maxQualifiedCardinality "1"^^xsd:nonNegativeInteger ;
+                                          owl:onClass :Aircraft
+                                        ] ;
+                    rdfs:subClassOf owl:Thing ;
+                    rdfs:comment "Contains the information about the flight."@en ;
+                    rdfs:label "Flight_Information"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Good
+:Good rdf:type owl:Class ;
+      rdfs:subClassOf :Airline_Satisfaction ;
+      rdfs:comment "Contains that the satisfaction in the passengers is Good."@en ;
+      rdfs:label "Good"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Indiferent
+:Indiferent rdf:type owl:Class ;
+            rdfs:subClassOf :Airline_Satisfaction ;
+            rdfs:comment "Contains that the satisfaction in the passengers is Indiferent."@en ;
+            rdfs:label "Indiferent"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Origin
+:Origin rdf:type owl:Class ;
+        rdfs:subClassOf :Flight_Information ;
+        rdfs:comment "Contains the place where the flight departs." ;
+        rdfs:isDefinedBy "https://dbpedia.org/ontology/locationCountry" ;
+        rdfs:label "Origin" .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger
+:Passenger rdf:type owl:Class ;
+           rdfs:subClassOf owl:Thing ;
+           rdfs:comment "Passenger means the information we have about the person who has flown with the airline."@en ;
+           rdfs:isDefinedBy "https://dbpedia.org/ontology/Person"@en ;
+           rdfs:label "Passenger"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Information
+:Passenger_Information rdf:type owl:Class ;
+                       rdfs:subClassOf owl:Thing ;
+                       rdfs:comment "Contains the personal information about the passenger."@en ;
+                       rdfs:label "Passenger_Information"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_Location
+:Passenger_Location rdf:type owl:Class ;
+                    rdfs:subClassOf :Passenger_Information ;
+                    rdfs:comment "Contains the country of the passenger."@en ;
+                    rdfs:isDefinedBy "https://dbpedia.org/ontology/locationCountry"@en ;
+                    rdfs:label "Passenger_Location"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_verified
+:Passenger_verified rdf:type owl:Class ;
+                    rdfs:subClassOf :Passenger_Information ;
+                    rdfs:comment "Contains if the passenger is verified or not."@en ;
+                    rdfs:label "Passenger_Verified"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Poor
+:Poor rdf:type owl:Class ;
+      rdfs:subClassOf :Airline_Satisfaction ;
+      rdfs:comment "Contains that the satisfaction in the passengers is Poor."@en ;
+      rdfs:label "Poor"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Premium_Economy
+:Premium_Economy rdf:type owl:Class ;
+                 rdfs:subClassOf :Seat_type ;
+                 rdfs:comment "It means that you are assigned premium economy class on the flight."@en ;
+                 rdfs:label "Premium_Economy"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_Airways
+:Qatar_Airways rdf:type owl:Class ;
+               rdfs:subClassOf :Airline ;
+               rdfs:comment "This is the Airline Qatar Airways."@en ;
+               rdfs:isDefinedBy "https://dbpedia.org/ontology/Company"@en ;
+               rdfs:label "Qatar_Airways"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Recomended
+:Recomended rdf:type owl:Class ;
+            rdfs:subClassOf :Review ;
+            rdfs:comment "Contains if the passengers recomend the airline."@en ;
+            rdfs:label "Recomended"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review
+:Review rdf:type owl:Class ;
+        rdfs:subClassOf owl:Thing ;
+        rdfs:comment "Contains the information about the review."@en ;
+        rdfs:label "Review"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair
+:Ryanair rdf:type owl:Class ;
+         rdfs:subClassOf :Airline .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Seat_type
+:Seat_type rdf:type owl:Class ;
+           rdfs:subClassOf :Passenger ;
+           rdfs:comment "Seat type It means what type of seat you are assigned on the flight."@en ;
+           rdfs:label "Seat_Type"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Solo_Leisure
+:Solo_Leisure rdf:type owl:Class ;
+              rdfs:subClassOf :Type_of_Traveller ;
+              rdfs:comment "Contains the type of traveler, in this case of solo leisure"@en ;
+              rdfs:label "Solo_Leisure"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Title_review
+:Title_review rdf:type owl:Class ;
+              rdfs:subClassOf :Review ;
+              rdfs:comment "Contains the title of the review."@en ;
+              rdfs:label "Title_Review"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Type_of_Traveller
+:Type_of_Traveller rdf:type owl:Class ;
+                   rdfs:subClassOf :Passenger ;
+                   rdfs:comment "It is the type of traveler, that is, if you are going on a family or business trip, etc." ;
+                   rdfs:label "Type_of_traveller" .
+
+
+###  http://www.w3.org/2002/07/owl#Thing
+owl:Thing rdfs:comment "The classes of the ontology."@en ;
+          rdfs:label "Class"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_1
+:Aircraft_1 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :isFlewBy :Ryanair ;
+            :has_Aircraft "Boeing 737 900" ;
+            rdfs:comment "Contains the name of the aircraft."@en ;
+            rdfs:label "Boeing_737_900"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_2
+:Aircraft_2 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :isFlewBy :Ryanair ;
+            :has_Aircraft "Boeing 738" ;
+            rdfs:comment "Contains the name of the aircraft."@en ;
+            rdfs:label "Boeing_738"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_3
+:Aircraft_3 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :isFlewBy :Ryanair ;
+            :has_Aircraft "Boeing 737" ;
+            rdfs:comment "Contains the name of the aircraft."@en ;
+            rdfs:label "Boeing_737"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_4
+:Aircraft_4 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :isFlewBy :Qatar_airways ;
+            :has_Aircraft "A380" ;
+            rdfs:comment "Contains the name of the aircraft."@en ;
+            rdfs:label "A380"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_5
+:Aircraft_5 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :isFlewBy :Qatar_airways ;
+            :has_Aircraft "A380-800" ;
+            rdfs:comment "Contains the name of the aircraft."@en ;
+            rdfs:label "A380-800"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Aircraft_6
+:Aircraft_6 rdf:type owl:NamedIndividual ,
+                     :Aircraft ;
+            :isFlewBy :Qatar_airways ;
+            :has_Aircraft "Boeing 787-9 / A330-300" ;
+            rdfs:comment "Contains the name of the aircraft."@en ;
+            rdfs:label "Boeing_787-9/A330-300"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_1
+:Passenger_1 rdf:type owl:NamedIndividual ,
+                      :Passenger ;
+             :hasTakenAn :Aircraft_1 ;
+             :hasWritten :Review_1 ;
+             :Passenger_Country "United Kingdom" ;
+             rdfs:comment "Contains the personal information about the passenger."@en ;
+             rdfs:label "Passenger_1"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_2
+:Passenger_2 rdf:type owl:NamedIndividual ,
+                      :Passenger ;
+             :hasTakenAn :Aircraft_2 ;
+             :hasWritten :Review_2 ;
+             :Passenger_Country "United Kingdom" ;
+             rdfs:comment "Contains the personal information about the passenger."@en ;
+             rdfs:label "Passenger_2"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_3
+:Passenger_3 rdf:type owl:NamedIndividual ,
+                      :Passenger ;
+             :hasTakenAn :Aircraft_3 ;
+             :hasWritten :Review_3 ;
+             :Passenger_Country "United Kingdom" ;
+             rdfs:comment "Contains the personal information about the passenger."@en ;
+             rdfs:label "Passenger_3"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_4
+:Passenger_4 rdf:type owl:NamedIndividual ,
+                      :Passenger ;
+             :hasTakenAn :Aircraft_4 ;
+             :hasWritten :Review_4 ;
+             :Passenger_Country "Australia" ;
+             rdfs:comment "Contains the personal information about the passenger."@en ;
+             rdfs:label "Passenger_4"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_5
+:Passenger_5 rdf:type owl:NamedIndividual ,
+                      :Passenger ;
+             :hasTakenAn :Aircraft_5 ;
+             :hasWritten :Review_5 ;
+             :Passenger_Country "Qatar" ;
+             rdfs:comment "Contains the personal information about the passenger."@en ;
+             rdfs:label "Passenger_5"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Passenger_6
+:Passenger_6 rdf:type owl:NamedIndividual ,
+                      :Passenger ;
+             :hasTakenAn :Aircraft_6 ;
+             :hasWritten :Review_6 ;
+             :Passenger_Country "Germany" ;
+             rdfs:comment "Contains the personal information about the passenger."@en ;
+             rdfs:label "Passenger_6"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Qatar_airways
+:Qatar_airways rdf:type owl:NamedIndividual ,
+                        :Airline ,
+                        :Qatar_Airways ;
+               :has_Airline "Qatar Airways" ;
+               rdfs:comment "Contains the information about Qatar Airways."@en ;
+               rdfs:label "Qatar_Airways"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_1
+:Review_1 rdf:type owl:NamedIndividual ,
+                   :Review ;
+          :Date_Flown "01/02/2024" ;
+          :Passenger_Country "United Kingdom" ;
+          :Rating "10"^^xsd:nonNegativeInteger ;
+          :Seat_Type "Economy Class" ;
+          :has_Destination "Luton" ;
+          :has_Origin "Faro" ;
+          :has_date_published "02/02/2024" ;
+          :has_type_of_traveller "Family Leisure" ;
+          rdfs:comment "Contains the information about the review."@en ;
+          rdfs:label "Review_1"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_2
+:Review_2 rdf:type owl:NamedIndividual ,
+                   :Review ;
+          :Date_Flown "01/10/2023" ;
+          :Passenger_Country "United Kingdom" ;
+          :Rating "10"^^xsd:nonNegativeInteger ;
+          :Seat_Type "Economy Class" ;
+          :has_Destination "Paris Beauvais" ;
+          :has_Origin "Edinburgh" ;
+          :has_date_published "20/01/2024" ;
+          :has_type_of_traveller "Couple Leisure" ;
+          rdfs:comment "Contains the information about the review."@en ;
+          rdfs:label "Review_2"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_3
+:Review_3 rdf:type owl:NamedIndividual ,
+                   :Review ;
+          :Date_Flown "2024-02-02" ;
+          :Passenger_Country "United Kingdom" ;
+          :Rating "6"^^xsd:nonNegativeInteger ;
+          :Seat_Type "Economy Class" ;
+          :has_Destination "Liverpool" ;
+          :has_Origin "Faro" ;
+          :has_date_published "07/01/2023" ;
+          :has_type_of_traveller "Solo Leisure" ;
+          rdfs:comment "Contains the information about the review."@en ;
+          rdfs:label "Review_3"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_4
+:Review_4 rdf:type owl:NamedIndividual ,
+                   :Review ;
+          :Date_Flown "November 2023" ;
+          :Passenger_Country "Australia" ;
+          :Rating "1"^^xsd:nonNegativeInteger ;
+          :Seat_Type "Economy Class" ;
+          :has_Destination "Perth" ;
+          :has_Origin "Doha" ;
+          :has_date_published "23/02/2024" ;
+          :has_type_of_traveller "Business" ;
+          rdfs:comment "Contains the information about the review."@en ;
+          rdfs:label "Review_4"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_5
+:Review_5 rdf:type owl:NamedIndividual ,
+                   :Review ;
+          :Date_Flown "07/06/2023" ;
+          :Passenger_Country "Qatar" ;
+          :Rating "10"^^xsd:nonNegativeInteger ;
+          :Seat_Type "First Class" ;
+          :has_Destination "London Heathrow" ;
+          :has_Origin "Doha" ;
+          :has_date_published "2024/02/25" ;
+          :has_type_of_traveller "Couple Leisure" ;
+          rdfs:comment "Contains the information about the review."@en ;
+          rdfs:label "Review_5"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Review_6
+:Review_6 rdf:type owl:NamedIndividual ,
+                   :Review ;
+          :Date_Flown "16/02/2024" ;
+          :Passenger_Country "Germany" ;
+          :Rating "7"^^xsd:nonNegativeInteger ;
+          :Seat_Type "Economy Class" ;
+          :has_Destination "Kilimanjaro via Doha" ;
+          :has_Origin "Dusseldorf" ;
+          :has_date_published "16/05/2022" ;
+          :has_type_of_traveller "Couple Leisure" ;
+          rdfs:comment "Contains the information about the review."@en ;
+          rdfs:label "Review_6"@en .
+
+
+###  http://www.semanticweb.org/usuario/ontologies/2024/3/Ontologia_de_les_enquestes_de_satisfacció_dels_vols#Ryanair
+:Ryanair rdf:type owl:NamedIndividual ,
+                  :Airline ,
+                  :Ryanair ;
+         :has_Airline "Ryanair" .
+
+
+#################################################################
+#    Annotations
+#################################################################
+
+:Ryanair rdfs:comment "This is the Airline Ryanair."@en ;
+         rdfs:isDefinedBy "https://dbpedia.org/ontology/Company"@en ;
+         rdfs:label "Ryanair"@en .
+
+
+###  Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
